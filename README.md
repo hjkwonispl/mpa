@@ -1,8 +1,8 @@
-![MPA](./images/mpa.svg)
+<img src="./images/mpa.svg" width="600" />
 
 Multistage Probabilistic Approach for The Localization of Cephalometric Landmarks
 ======================
-This page provide source code of the paper 
+This page provides the source code of the paper 
 'Multistage Probabilistic Approach for The Localization of Cephalometric Landmarks'  
 
 ## Requirements
@@ -24,8 +24,14 @@ You can install our code with the following steps.
 2. Install python packages with 'pip install -r requirements.txt'
 3. Download ISBI2015 dataset and trained models with 'get_data_and_models.py'
 
-## How to Run
+## How to Test
 Results in the paper can be reproduced with **'test.py'**.
+
+## How to Train
+The reproduction of results may require delicate calibrations of training parameters and system requirements.
+1. Train global stage model with **'train_global.py'**.
+2. Train local stage models with **'train_local.py'** for each landmark.
+3. Train refinement stage models with **'train_refine.py'** for bilateral landmarks of the mandible (Gonion and Articulare).
 
 ## Acknowledgement
 Our code is based on the PyTorch [[1](#ref-1)] and Kornia [[2](#ref-2)]. 
