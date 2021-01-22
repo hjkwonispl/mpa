@@ -1,0 +1,9 @@
+gdown==3.12.2
+kornia==0.4.0
+matplotlib==3.3.1
+opencv-contrib-python==4.4.0.42
+opencv-python==4.4.0.42
+scipy==1.5.2
+tensorboard==2.3.0
+torch==1.6.0
+torchvision==0.7.0
