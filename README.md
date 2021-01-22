@@ -1,4 +1,4 @@
-<img src="./images/mpa.svg" width="600" />
+<img src="./images/mpa.svg" width="800" />
 
 Multistage Probabilistic Approach for The Localization of Cephalometric Landmarks
 ======================
